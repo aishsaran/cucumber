@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features={"src/main/resources/sample5.feature"},
 glue="stepdefinition", 
 //plugin="html:target/htmlreporter")
-//plugin="json:target/cucumber.json",
-plugin="junit:target/xmlreport.xml")
+plugin="json:target/jsonreport.json",
+//plugin="junit:target/xmlreport.xml")
 //tags={"@aishu"," @appu"})
 //tags={"@appu"})
 public class runnerclass 
