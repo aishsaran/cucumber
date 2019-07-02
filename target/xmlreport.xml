@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.008359">
+<testcase classname="search multiple items" name="search for products" time="0.008359">
+<system-out><![CDATA[When user searches for products.............................................passed
+And verify the product displayed............................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

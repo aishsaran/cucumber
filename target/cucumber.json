@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1267200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "application displays welcome message",
+            "match": {
+              "location": "Sample4cucumber.application_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "add to cart",
+        "description": "",
+        "id": "testing-backgroung-keyword;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user adds the product to the cart",
+            "match": {
+              "location": "Sample4cucumber.user_adds_the_product_to_the_cart()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@appu"
+          },
+          {
+            "name": "@aishu"
+          }
+        ]
+      }
+    ],
+    "name": "Testing backgroung keyword",
+    "description": "",
+    "id": "testing-backgroung-keyword",
+    "keyword": "Feature",
+    "uri": "src/main/resources/sample4.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51144" started-at="2019-07-02T09:14:47Z" finished-at="2019-07-02T09:15:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51144" started-at="2019-07-02T09:14:47Z" finished-at="2019-07-02T09:15:38Z">
+      <class name="stepdefinition.Sample4cucumber">
+        <test-method status="PASS" signature="configureBrowser()[pri:0, instance:stepdefinition.Sample4cucumber@3ffc5af1]" name="configureBrowser" is-config="true" duration-ms="20048" started-at="2019-07-02T14:44:47Z" finished-at="2019-07-02T14:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBrowser -->
+        <test-method status="PASS" signature="username_and_password()[pri:1, instance:stepdefinition.Sample4cucumber@3ffc5af1]" name="username_and_password" duration-ms="10299" started-at="2019-07-02T14:45:07Z" finished-at="2019-07-02T14:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username_and_password -->
+        <test-method status="PASS" signature="click_signin()[pri:2, instance:stepdefinition.Sample4cucumber@3ffc5af1]" name="click_signin" duration-ms="7416" started-at="2019-07-02T14:45:17Z" finished-at="2019-07-02T14:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_signin -->
+        <test-method status="PASS" signature="user_searches_for_iphone()[pri:3, instance:stepdefinition.Sample4cucumber@3ffc5af1]" name="user_searches_for_iphone" duration-ms="4259" started-at="2019-07-02T14:45:24Z" finished-at="2019-07-02T14:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_searches_for_iphone -->
+        <test-method status="PASS" signature="user_proceeds_to_pay()[pri:5, instance:stepdefinition.Sample4cucumber@3ffc5af1]" name="user_proceeds_to_pay" duration-ms="8329" started-at="2019-07-02T14:45:29Z" finished-at="2019-07-02T14:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_proceeds_to_pay -->
+        <test-method status="FAIL" signature="user_singsout_from_the_shopping()[pri:6, instance:stepdefinition.Sample4cucumber@3ffc5af1]" name="user_singsout_from_the_shopping" duration-ms="35" started-at="2019-07-02T14:45:37Z" finished-at="2019-07-02T14:45:37Z">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: The result of the xpath expression "/html/body/header/div/div/ul/b/a[2]/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=75.0.3770.80)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'CDC2-D-45W7N62', ip: '10.237.17.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TRAINI~1.29\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:20640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5ad31c819221eaf8a2cd6b97b3575d91
+*** Element info: {Using=xpath, value=/html/body/header/div/div/ul/b/a[2]/text()}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "/html/body/header/div/div/ul/b/a[2]/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=75.0.3770.80)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'CDC2-D-45W7N62', ip: '10.237.17.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TRAINI~1.29\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:20640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5ad31c819221eaf8a2cd6b97b3575d91
+*** Element info: {Using=xpath, value=/html/body/header/div/div/ul/b/a[2]/text()}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at stepdefinition.Sample4cucumber.user_singsout_from_the_shopping(Sample4cucumber.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_singsout_from_the_shopping -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:stepdefinition.Sample4cucumber@3ffc5af1]" name="closeapp" is-config="true" duration-ms="715" started-at="2019-07-02T14:45:37Z" finished-at="2019-07-02T14:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- stepdefinition.Sample4cucumber -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
